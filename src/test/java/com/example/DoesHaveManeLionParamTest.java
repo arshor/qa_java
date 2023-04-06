@@ -37,7 +37,7 @@ public class DoesHaveManeLionParamTest {
     }
 
     @Test
-    public void doesHaveMane() throws Exception {
+    public void doesHaveManeTest() throws Exception {
         Lion lion = new Lion(checkedText, feline);
         assertEquals(expected, lion.doesHaveMane());
     }

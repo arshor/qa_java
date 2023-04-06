@@ -33,3 +33,9 @@ hs_err_pid*
 /target/classes/read.me
 /target/surefire-reports/TEST-com.example.DoesHaveManeLionParamTest.xml
 /target/surefire-reports/TEST-com.example.LionTest.xml
+/target/surefire-reports/com.example.CatTest.txt
+/target/surefire-reports/TEST-com.example.CatTest.xml
+/target/surefire-reports/com.example.FelineTest.txt
+/target/surefire-reports/com.example.GetKittensFelineParamTest.txt
+/target/surefire-reports/TEST-com.example.FelineTest.xml
+/target/surefire-reports/TEST-com.example.GetKittensFelineParamTest.xml

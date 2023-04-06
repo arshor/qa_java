@@ -16,6 +16,7 @@ public class CatTest {
 
     List<String> expectedFood = List.of("Животные", "Птицы", "Рыба");
     Cat cat;
+
     @Mock
     Feline feline;
 

@@ -39,3 +39,7 @@ hs_err_pid*
 /target/surefire-reports/com.example.GetKittensFelineParamTest.txt
 /target/surefire-reports/TEST-com.example.FelineTest.xml
 /target/surefire-reports/TEST-com.example.GetKittensFelineParamTest.xml
+/target/surefire-reports/com.example.LionAlexTest.txt
+/target/site/jacoco/com.example/LionAlex.html
+/target/site/jacoco/com.example/LionAlex.java.html
+/target/surefire-reports/TEST-com.example.LionAlexTest.xml

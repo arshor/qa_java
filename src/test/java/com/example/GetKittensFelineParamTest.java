@@ -9,6 +9,7 @@ import static org.junit.Assert.assertEquals;
 
 @RunWith(Parameterized.class)
 public class GetKittensFelineParamTest {
+
     private final int checkedCount;
     private final int expectedCount;
     private Feline feline;

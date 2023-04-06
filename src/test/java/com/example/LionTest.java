@@ -12,7 +12,7 @@ import static org.junit.Assert.assertEquals;
 
 @RunWith(MockitoJUnitRunner.class)
 public class LionTest {
-    List<String> food = List.of("Животные", "Птицы", "Рыба");
+    List<String> expectedFood = List.of("Животные", "Птицы", "Рыба");
     @Mock
     Feline feline;
 
@@ -26,8 +26,8 @@ public class LionTest {
     @Test
     public void getFoodTest() throws Exception {
         Lion lion = new Lion("Самец", feline);
-        Mockito.when(feline.getFood("Хищник")).thenReturn(food);
-        assertEquals(food, lion.getFood());
+        Mockito.when(feline.getFood("Хищник")).thenReturn(expectedFood);
+        assertEquals(expectedFood, lion.getFood());
     }
 
     @Test
